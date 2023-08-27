@@ -1,0 +1,30 @@
+.header-container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.search-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.profile-container {
+  display: flex;
+  align-self: flex-end;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.Header-input {
+  border: none;
+}
+.Header-input:focus {
+  outline: none;
+}
+.Header-Search-div {
+  display: flex;
+  align-items: center;
+}
